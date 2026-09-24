@@ -45,7 +45,7 @@
       "type": "text",
       "x": 60,
       "y": 58,
-      "width": 750.7500000000001,
+      "width": 643.9306640625,
       "height": 18.75,
       "angle": 0,
       "strokeColor": "#495057",
@@ -59,20 +59,20 @@
       "frameId": null,
       "roundness": null,
       "seed": 1181241944,
-      "version": 3,
-      "versionNonce": 1396703939,
+      "version": 13,
+      "versionNonce": 146665879,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281099162,
       "link": null,
       "locked": false,
-      "text": "2 VPCs con peering  ·  2 AZs  ·  8 EC2  ·  RDS Multi-AZ  ·  Redis  ·  S3 + CloudFront (OAC)",
+      "text": "2 VPCs con peering  ·  2 AZs  ·  4 EC2 x AZ  ·  RDS Multi-AZ  ·  Redis  ·  S3 + CloudFront (OAC)",
       "fontSize": 15,
       "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "2 VPCs con peering  ·  2 AZs  ·  8 EC2  ·  RDS Multi-AZ  ·  Redis  ·  S3 + CloudFront (OAC)",
+      "originalText": "2 VPCs con peering  ·  2 AZs  ·  4 EC2 x AZ  ·  RDS Multi-AZ  ·  Redis  ·  S3 + CloudFront (OAC)",
       "lineHeight": 1.25,
       "index": "a1",
       "autoResize": true
@@ -115,7 +115,7 @@
     {
       "id": "acm_txt",
       "type": "text",
-      "x": 223.0,
+      "x": 223,
       "y": 116.5,
       "width": 274,
       "height": 45,
@@ -170,8 +170,8 @@
         "type": 3
       },
       "seed": 958682847,
-      "version": 3,
-      "versionNonce": 1228829101,
+      "version": 4,
+      "versionNonce": 267879639,
       "isDeleted": false,
       "boundElements": [
         {
@@ -179,10 +179,10 @@
           "id": "internet_txt"
         }
       ],
-      "updated": 1790224712170,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "a2"
+      "index": "b0O0V"
     },
     {
       "id": "internet_txt",
@@ -203,11 +203,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 440213416,
-      "version": 12,
-      "versionNonce": 229711683,
+      "version": 13,
+      "versionNonce": 819009561,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790224713140,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Internet \n",
@@ -218,7 +218,7 @@
       "containerId": "internet",
       "originalText": "Internet \n",
       "lineHeight": 1.25,
-      "index": "a3",
+      "index": "b0O1",
       "autoResize": true
     },
     {
@@ -242,8 +242,8 @@
         "type": 3
       },
       "seed": 1812140442,
-      "version": 2,
-      "versionNonce": 2056018253,
+      "version": 3,
+      "versionNonce": 1384042999,
       "isDeleted": false,
       "boundElements": [
         {
@@ -251,10 +251,10 @@
           "id": "igw_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "a4"
+      "index": "b0O2"
     },
     {
       "id": "igw_txt",
@@ -275,11 +275,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 127978095,
-      "version": 4,
-      "versionNonce": 100298243,
+      "version": 5,
+      "versionNonce": 923315449,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "IGW\nigw-casino-prod-01-cacentral1",
@@ -290,7 +290,7 @@
       "containerId": "igw",
       "originalText": "IGW\nigw-casino-prod-01-cacentral1",
       "lineHeight": 1.25,
-      "index": "a5",
+      "index": "b0O2V",
       "autoResize": true
     },
     {
@@ -314,11 +314,11 @@
         "type": 2
       },
       "seed": 939042956,
-      "version": 2,
-      "versionNonce": 1068345261,
+      "version": 3,
+      "versionNonce": 484408087,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "points": [
@@ -336,7 +336,7 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "lastCommittedPoint": null,
-      "index": "a6"
+      "index": "b0O3"
     },
     {
       "id": "vpc_main",
@@ -359,20 +359,20 @@
         "type": 3
       },
       "seed": 113971124,
-      "version": 148,
-      "versionNonce": 1468614477,
+      "version": 149,
+      "versionNonce": 1060808153,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790224629399,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "a7"
+      "index": "b0O4"
     },
     {
       "id": "vpc_main_lbl",
       "type": "text",
-      "x": 72,
-      "y": 293,
+      "x": 92.01956176757812,
+      "y": 296.7242126464844,
       "width": 700.1500000000001,
       "height": 23.75,
       "angle": 0,
@@ -387,11 +387,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1801823909,
-      "version": 3,
-      "versionNonce": 1146497549,
+      "version": 36,
+      "versionNonce": 376961143,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281257855,
       "link": null,
       "locked": false,
       "text": "VPC Principal   ·   vpc-casino-prod-01-cacentral1   ·   10.0.0.0/16",
@@ -402,7 +402,7 @@
       "containerId": null,
       "originalText": "VPC Principal   ·   vpc-casino-prod-01-cacentral1   ·   10.0.0.0/16",
       "lineHeight": 1.25,
-      "index": "a8",
+      "index": "b0O4V",
       "autoResize": true
     },
     {
@@ -426,11 +426,11 @@
         "type": 2
       },
       "seed": 1929338155,
-      "version": 2,
-      "versionNonce": 1929578819,
+      "version": 3,
+      "versionNonce": 1685750457,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "points": [
@@ -448,7 +448,7 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "lastCommittedPoint": null,
-      "index": "a9"
+      "index": "b0O5"
     },
     {
       "id": "az_a",
@@ -471,14 +471,14 @@
         "type": 3
       },
       "seed": 27911968,
-      "version": 2,
-      "versionNonce": 2038390893,
+      "version": 3,
+      "versionNonce": 409919831,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aA"
+      "index": "b0O6"
     },
     {
       "id": "az_a_lbl",
@@ -499,11 +499,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1815115026,
-      "version": 3,
-      "versionNonce": 1761011939,
+      "version": 4,
+      "versionNonce": 325829529,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Zona de disponibilidad  ca-central-1a",
@@ -514,7 +514,7 @@
       "containerId": null,
       "originalText": "Zona de disponibilidad  ca-central-1a",
       "lineHeight": 1.25,
-      "index": "aB",
+      "index": "b0O7",
       "autoResize": true
     },
     {
@@ -538,14 +538,14 @@
         "type": 3
       },
       "seed": 1193448330,
-      "version": 2,
-      "versionNonce": 1962068685,
+      "version": 3,
+      "versionNonce": 2094440055,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aC"
+      "index": "b0O8"
     },
     {
       "id": "pub_a_lbl",
@@ -566,11 +566,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 924765564,
-      "version": 4,
-      "versionNonce": 546165891,
+      "version": 5,
+      "versionNonce": 1480714361,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Subred PUBLICA   10.0.0.0/24\nsubnet-pub-casino-prod-01-cacentral1a",
@@ -581,7 +581,7 @@
       "containerId": null,
       "originalText": "Subred PUBLICA   10.0.0.0/24\nsubnet-pub-casino-prod-01-cacentral1a",
       "lineHeight": 1.25,
-      "index": "aD",
+      "index": "b0O8V",
       "autoResize": true
     },
     {
@@ -605,8 +605,8 @@
         "type": 3
       },
       "seed": 438989806,
-      "version": 2,
-      "versionNonce": 1464461613,
+      "version": 3,
+      "versionNonce": 864663447,
       "isDeleted": false,
       "boundElements": [
         {
@@ -614,10 +614,10 @@
           "id": "alb_a_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aE"
+      "index": "b0O9"
     },
     {
       "id": "alb_a_txt",
@@ -638,11 +638,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1631775358,
-      "version": 4,
-      "versionNonce": 159796259,
+      "version": 5,
+      "versionNonce": 1824551257,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "ALB\n(nodo)",
@@ -653,7 +653,7 @@
       "containerId": "alb_a",
       "originalText": "ALB\n(nodo)",
       "lineHeight": 1.25,
-      "index": "aF",
+      "index": "b0OA",
       "autoResize": true
     },
     {
@@ -677,8 +677,8 @@
         "type": 3
       },
       "seed": 1541804687,
-      "version": 44,
-      "versionNonce": 1506004813,
+      "version": 45,
+      "versionNonce": 314354871,
       "isDeleted": false,
       "boundElements": [
         {
@@ -686,10 +686,10 @@
           "id": "nat_txt"
         }
       ],
-      "updated": 1790194329242,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aG"
+      "index": "b0OAV"
     },
     {
       "id": "nat_txt",
@@ -710,11 +710,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1136108455,
-      "version": 46,
-      "versionNonce": 1954962861,
+      "version": 47,
+      "versionNonce": 104521273,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194329242,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "NAT Gateway + EIP\nnat-casino-prod-01-cacentral1a\neip-casino-prod-01-cacentral1a",
@@ -725,7 +725,7 @@
       "containerId": "nat",
       "originalText": "NAT Gateway + EIP\nnat-casino-prod-01-cacentral1a\neip-casino-prod-01-cacentral1a",
       "lineHeight": 1.25,
-      "index": "aH",
+      "index": "b0OB",
       "autoResize": true
     },
     {
@@ -749,14 +749,14 @@
         "type": 3
       },
       "seed": 1973214823,
-      "version": 2,
-      "versionNonce": 756629997,
+      "version": 3,
+      "versionNonce": 907279831,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aI"
+      "index": "b0OC"
     },
     {
       "id": "app_a_lbl",
@@ -777,11 +777,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1625792788,
-      "version": 41,
-      "versionNonce": 1394114733,
+      "version": 42,
+      "versionNonce": 1670688537,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790224625501,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Subred PRIVADA app   10.0.10.0/24\nsubnet-app-casino-prod-01-cacentral1a",
@@ -792,7 +792,7 @@
       "containerId": null,
       "originalText": "Subred PRIVADA app   10.0.10.0/24\nsubnet-app-casino-prod-01-cacentral1a",
       "lineHeight": 1.25,
-      "index": "aJ",
+      "index": "b0OCV",
       "autoResize": true
     },
     {
@@ -816,8 +816,8 @@
         "type": 3
       },
       "seed": 1259191106,
-      "version": 2,
-      "versionNonce": 768900173,
+      "version": 3,
+      "versionNonce": 1352936183,
       "isDeleted": false,
       "boundElements": [
         {
@@ -825,15 +825,15 @@
           "id": "ec2_frontsite_a_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aK"
+      "index": "b0OD"
     },
     {
       "id": "ec2_frontsite_a_txt",
       "type": "text",
-      "x": 176.0,
+      "x": 176,
       "y": 592.5,
       "width": 288,
       "height": 15,
@@ -849,11 +849,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 825873197,
-      "version": 4,
-      "versionNonce": 620362499,
+      "version": 5,
+      "versionNonce": 457270265,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "ec2-frontsite-casino-prod-01-cacentral1a",
@@ -864,7 +864,7 @@
       "containerId": "ec2_frontsite_a",
       "originalText": "ec2-frontsite-casino-prod-01-cacentral1a",
       "lineHeight": 1.25,
-      "index": "aL",
+      "index": "b0OE",
       "autoResize": true
     },
     {
@@ -888,8 +888,8 @@
         "type": 3
       },
       "seed": 196814234,
-      "version": 2,
-      "versionNonce": 1006201517,
+      "version": 3,
+      "versionNonce": 1056027671,
       "isDeleted": false,
       "boundElements": [
         {
@@ -897,10 +897,10 @@
           "id": "ec2_backoffice_a_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aM"
+      "index": "b0OF"
     },
     {
       "id": "ec2_backoffice_a_txt",
@@ -921,11 +921,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1242911822,
-      "version": 4,
-      "versionNonce": 715760291,
+      "version": 5,
+      "versionNonce": 692354265,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "ec2-backoffice-casino-prod-01-cacentral1a",
@@ -936,7 +936,7 @@
       "containerId": "ec2_backoffice_a",
       "originalText": "ec2-backoffice-casino-prod-01-cacentral1a",
       "lineHeight": 1.25,
-      "index": "aN",
+      "index": "b0OG",
       "autoResize": true
     },
     {
@@ -960,8 +960,8 @@
         "type": 3
       },
       "seed": 999829241,
-      "version": 31,
-      "versionNonce": 1073730787,
+      "version": 32,
+      "versionNonce": 1492195639,
       "isDeleted": false,
       "boundElements": [
         {
@@ -969,15 +969,15 @@
           "id": "ec2_webapi_a_txt"
         }
       ],
-      "updated": 1790194354390,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aO"
+      "index": "b0OGV"
     },
     {
       "id": "ec2_webapi_a_txt",
       "type": "text",
-      "x": 187.0,
+      "x": 187,
       "y": 660.5,
       "width": 266,
       "height": 15,
@@ -993,11 +993,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1632629720,
-      "version": 33,
-      "versionNonce": 2140749955,
+      "version": 34,
+      "versionNonce": 1026652601,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194354390,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "ec2-webapi-casino-prod-01-cacentral1a",
@@ -1008,7 +1008,7 @@
       "containerId": "ec2_webapi_a",
       "originalText": "ec2-webapi-casino-prod-01-cacentral1a",
       "lineHeight": 1.25,
-      "index": "aP",
+      "index": "b0OH",
       "autoResize": true
     },
     {
@@ -1032,8 +1032,8 @@
         "type": 3
       },
       "seed": 1947382420,
-      "version": 2,
-      "versionNonce": 1911972717,
+      "version": 3,
+      "versionNonce": 67557975,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1041,15 +1041,15 @@
           "id": "ec2_gameapi_a_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aQ"
+      "index": "b0OI"
     },
     {
       "id": "ec2_gameapi_a_txt",
       "type": "text",
-      "x": 183.0,
+      "x": 183,
       "y": 694.5,
       "width": 274,
       "height": 15,
@@ -1065,11 +1065,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 698594026,
-      "version": 4,
-      "versionNonce": 430282211,
+      "version": 5,
+      "versionNonce": 1210833561,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "ec2-gameapi-casino-prod-01-cacentral1a",
@@ -1080,7 +1080,7 @@
       "containerId": "ec2_gameapi_a",
       "originalText": "ec2-gameapi-casino-prod-01-cacentral1a",
       "lineHeight": 1.25,
-      "index": "aR",
+      "index": "b0OIV",
       "autoResize": true
     },
     {
@@ -1104,14 +1104,14 @@
         "type": 3
       },
       "seed": 1525876052,
-      "version": 2,
-      "versionNonce": 1838247373,
+      "version": 3,
+      "versionNonce": 84375415,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aS"
+      "index": "b0OJ"
     },
     {
       "id": "cache_a_lbl",
@@ -1132,11 +1132,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1146660998,
-      "version": 61,
-      "versionNonce": 2049172675,
+      "version": 62,
+      "versionNonce": 1256660857,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790224673430,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Subred PRIVADA redis   10.0.20.0/24\nsubnet-redis-casino-prod-01-cacentral1a",
@@ -1147,7 +1147,7 @@
       "containerId": null,
       "originalText": "Subred PRIVADA redis   10.0.20.0/24\nsubnet-redis-casino-prod-01-cacentral1a",
       "lineHeight": 1.25,
-      "index": "aT",
+      "index": "b0OK",
       "autoResize": true
     },
     {
@@ -1171,8 +1171,8 @@
         "type": 3
       },
       "seed": 735034882,
-      "version": 2,
-      "versionNonce": 706489389,
+      "version": 3,
+      "versionNonce": 305623191,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1180,10 +1180,10 @@
           "id": "redis_a_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aU"
+      "index": "b0OKV"
     },
     {
       "id": "redis_a_txt",
@@ -1204,11 +1204,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 701808368,
-      "version": 4,
-      "versionNonce": 908966179,
+      "version": 5,
+      "versionNonce": 1671874649,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "ElastiCache Redis · primario\nredis-casino-prod-01-cacentral1",
@@ -1219,7 +1219,7 @@
       "containerId": "redis_a",
       "originalText": "ElastiCache Redis · primario\nredis-casino-prod-01-cacentral1",
       "lineHeight": 1.25,
-      "index": "aV",
+      "index": "b0OL",
       "autoResize": true
     },
     {
@@ -1243,14 +1243,14 @@
         "type": 3
       },
       "seed": 1629748728,
-      "version": 2,
-      "versionNonce": 1468014221,
+      "version": 3,
+      "versionNonce": 625690039,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aW"
+      "index": "b0OM"
     },
     {
       "id": "datos_a_lbl",
@@ -1271,11 +1271,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 943239975,
-      "version": 59,
-      "versionNonce": 1406538157,
+      "version": 60,
+      "versionNonce": 473847097,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790224657600,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Subred PRIVADA database   10.0.30.0/24\nsubnet-database-casino-prod-01-cacentral1a",
@@ -1286,7 +1286,7 @@
       "containerId": null,
       "originalText": "Subred PRIVADA database   10.0.30.0/24\nsubnet-database-casino-prod-01-cacentral1a",
       "lineHeight": 1.25,
-      "index": "aX",
+      "index": "b0ON",
       "autoResize": true
     },
     {
@@ -1310,8 +1310,8 @@
         "type": 3
       },
       "seed": 240251662,
-      "version": 2,
-      "versionNonce": 1819722989,
+      "version": 3,
+      "versionNonce": 224884439,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1319,10 +1319,10 @@
           "id": "rds_a_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aY"
+      "index": "b0OO"
     },
     {
       "id": "rds_a_txt",
@@ -1343,11 +1343,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 137869476,
-      "version": 4,
-      "versionNonce": 1324747875,
+      "version": 5,
+      "versionNonce": 2014397977,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "RDS PostgreSQL transaccional · primaria\nrds-casino-prod-01-cacentral1",
@@ -1358,7 +1358,7 @@
       "containerId": "rds_a",
       "originalText": "RDS PostgreSQL transaccional · primaria\nrds-casino-prod-01-cacentral1",
       "lineHeight": 1.25,
-      "index": "aZ",
+      "index": "b0OOV",
       "autoResize": true
     },
     {
@@ -1382,14 +1382,14 @@
         "type": 3
       },
       "seed": 1722989660,
-      "version": 2,
-      "versionNonce": 1284087629,
+      "version": 3,
+      "versionNonce": 1092649975,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aa"
+      "index": "b0OP"
     },
     {
       "id": "az_b_lbl",
@@ -1410,11 +1410,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 284277890,
-      "version": 3,
-      "versionNonce": 1373407235,
+      "version": 4,
+      "versionNonce": 1108548345,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Zona de disponibilidad  ca-central-1b",
@@ -1425,7 +1425,7 @@
       "containerId": null,
       "originalText": "Zona de disponibilidad  ca-central-1b",
       "lineHeight": 1.25,
-      "index": "ab",
+      "index": "b0OQ",
       "autoResize": true
     },
     {
@@ -1449,14 +1449,14 @@
         "type": 3
       },
       "seed": 1351531224,
-      "version": 3,
-      "versionNonce": 162781293,
+      "version": 4,
+      "versionNonce": 1887104279,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194494421,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "ac"
+      "index": "b0OR"
     },
     {
       "id": "pub_b_lbl",
@@ -1477,11 +1477,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 2144181938,
-      "version": 4,
-      "versionNonce": 364023715,
+      "version": 5,
+      "versionNonce": 449270745,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Subred PUBLICA   10.0.1.0/24\nsubnet-pub-casino-prod-01-cacentral1b",
@@ -1492,7 +1492,7 @@
       "containerId": null,
       "originalText": "Subred PUBLICA   10.0.1.0/24\nsubnet-pub-casino-prod-01-cacentral1b",
       "lineHeight": 1.25,
-      "index": "ad",
+      "index": "b0OS",
       "autoResize": true
     },
     {
@@ -1516,8 +1516,8 @@
         "type": 3
       },
       "seed": 1970753706,
-      "version": 2,
-      "versionNonce": 1077538829,
+      "version": 3,
+      "versionNonce": 1458254391,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1525,10 +1525,10 @@
           "id": "alb_b_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "ae"
+      "index": "b0OSV"
     },
     {
       "id": "alb_b_txt",
@@ -1549,11 +1549,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1137651679,
-      "version": 4,
-      "versionNonce": 1822860099,
+      "version": 5,
+      "versionNonce": 1178693817,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "ALB\n(nodo)",
@@ -1564,7 +1564,7 @@
       "containerId": "alb_b",
       "originalText": "ALB\n(nodo)",
       "lineHeight": 1.25,
-      "index": "af",
+      "index": "b0OT",
       "autoResize": true
     },
     {
@@ -1588,14 +1588,14 @@
         "type": 3
       },
       "seed": 1059257081,
-      "version": 2,
-      "versionNonce": 284845677,
+      "version": 3,
+      "versionNonce": 1297470295,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "ag"
+      "index": "b0OU"
     },
     {
       "id": "app_b_lbl",
@@ -1616,11 +1616,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1840109256,
-      "version": 105,
-      "versionNonce": 702425773,
+      "version": 106,
+      "versionNonce": 975499673,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790224633445,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Subred PRIVADA app   10.0.11.0/24\nsubnet-app-casino-prod-01-cacentral1b",
@@ -1631,7 +1631,7 @@
       "containerId": null,
       "originalText": "Subred PRIVADA app   10.0.11.0/24\nsubnet-app-casino-prod-01-cacentral1b",
       "lineHeight": 1.25,
-      "index": "ah",
+      "index": "b0OUV",
       "autoResize": true
     },
     {
@@ -1655,8 +1655,8 @@
         "type": 3
       },
       "seed": 1554762904,
-      "version": 2,
-      "versionNonce": 857542861,
+      "version": 3,
+      "versionNonce": 470765687,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1664,15 +1664,15 @@
           "id": "ec2_frontsite_b_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "ai"
+      "index": "b0OV"
     },
     {
       "id": "ec2_frontsite_b_txt",
       "type": "text",
-      "x": 656.0,
+      "x": 656,
       "y": 592.5,
       "width": 288,
       "height": 15,
@@ -1688,11 +1688,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 594130309,
-      "version": 4,
-      "versionNonce": 1704128131,
+      "version": 5,
+      "versionNonce": 1805997689,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "ec2-frontsite-casino-prod-01-cacentral1b",
@@ -1703,7 +1703,7 @@
       "containerId": "ec2_frontsite_b",
       "originalText": "ec2-frontsite-casino-prod-01-cacentral1b",
       "lineHeight": 1.25,
-      "index": "aj",
+      "index": "b0OVV",
       "autoResize": true
     },
     {
@@ -1727,8 +1727,8 @@
         "type": 3
       },
       "seed": 390452953,
-      "version": 2,
-      "versionNonce": 607874861,
+      "version": 3,
+      "versionNonce": 215755159,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1736,10 +1736,10 @@
           "id": "ec2_backoffice_b_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "ak"
+      "index": "b0OW"
     },
     {
       "id": "ec2_backoffice_b_txt",
@@ -1760,11 +1760,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 470939446,
-      "version": 4,
-      "versionNonce": 1658332707,
+      "version": 5,
+      "versionNonce": 1569070937,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "ec2-backoffice-casino-prod-01-cacentral1b",
@@ -1775,7 +1775,7 @@
       "containerId": "ec2_backoffice_b",
       "originalText": "ec2-backoffice-casino-prod-01-cacentral1b",
       "lineHeight": 1.25,
-      "index": "al",
+      "index": "b0OX",
       "autoResize": true
     },
     {
@@ -1799,8 +1799,8 @@
         "type": 3
       },
       "seed": 687117442,
-      "version": 2,
-      "versionNonce": 1925120397,
+      "version": 3,
+      "versionNonce": 1022418615,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1808,15 +1808,15 @@
           "id": "ec2_webapi_b_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "am"
+      "index": "b0OXV"
     },
     {
       "id": "ec2_webapi_b_txt",
       "type": "text",
-      "x": 667.0,
+      "x": 667,
       "y": 660.5,
       "width": 266,
       "height": 15,
@@ -1832,11 +1832,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 272849425,
-      "version": 4,
-      "versionNonce": 1574267331,
+      "version": 5,
+      "versionNonce": 1847249977,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "ec2-webapi-casino-prod-01-cacentral1b",
@@ -1847,7 +1847,7 @@
       "containerId": "ec2_webapi_b",
       "originalText": "ec2-webapi-casino-prod-01-cacentral1b",
       "lineHeight": 1.25,
-      "index": "an",
+      "index": "b0OY",
       "autoResize": true
     },
     {
@@ -1871,8 +1871,8 @@
         "type": 3
       },
       "seed": 1639042339,
-      "version": 2,
-      "versionNonce": 601966573,
+      "version": 3,
+      "versionNonce": 787607511,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1880,15 +1880,15 @@
           "id": "ec2_gameapi_b_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "ao"
+      "index": "b0OZ"
     },
     {
       "id": "ec2_gameapi_b_txt",
       "type": "text",
-      "x": 663.0,
+      "x": 663,
       "y": 694.5,
       "width": 274,
       "height": 15,
@@ -1904,11 +1904,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1079815405,
-      "version": 4,
-      "versionNonce": 2074687843,
+      "version": 5,
+      "versionNonce": 1699142937,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "ec2-gameapi-casino-prod-01-cacentral1b",
@@ -1919,7 +1919,7 @@
       "containerId": "ec2_gameapi_b",
       "originalText": "ec2-gameapi-casino-prod-01-cacentral1b",
       "lineHeight": 1.25,
-      "index": "ap",
+      "index": "b0OZV",
       "autoResize": true
     },
     {
@@ -1943,14 +1943,14 @@
         "type": 3
       },
       "seed": 491995980,
-      "version": 2,
-      "versionNonce": 1504428621,
+      "version": 3,
+      "versionNonce": 485743863,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aq"
+      "index": "b0Oa"
     },
     {
       "id": "cache_b_lbl",
@@ -1971,11 +1971,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1461042544,
-      "version": 320,
-      "versionNonce": 53748451,
+      "version": 321,
+      "versionNonce": 1115542009,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790224667960,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Subred PRIVADA redis   10.0.21.0/24\nsubnet-redis-casino-prod-01-cacentral1b",
@@ -1986,7 +1986,7 @@
       "containerId": null,
       "originalText": "Subred PRIVADA redis   10.0.21.0/24\nsubnet-redis-casino-prod-01-cacentral1b",
       "lineHeight": 1.25,
-      "index": "ar",
+      "index": "b0Ob",
       "autoResize": true
     },
     {
@@ -2010,8 +2010,8 @@
         "type": 3
       },
       "seed": 1260573449,
-      "version": 2,
-      "versionNonce": 955773101,
+      "version": 3,
+      "versionNonce": 175842839,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2019,10 +2019,10 @@
           "id": "redis_b_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "as"
+      "index": "b0Oc"
     },
     {
       "id": "redis_b_txt",
@@ -2043,11 +2043,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 679282379,
-      "version": 4,
-      "versionNonce": 1732148387,
+      "version": 5,
+      "versionNonce": 1254304473,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "ElastiCache Redis · replica\nredis-casino-prod-01-cacentral1",
@@ -2058,7 +2058,7 @@
       "containerId": "redis_b",
       "originalText": "ElastiCache Redis · replica\nredis-casino-prod-01-cacentral1",
       "lineHeight": 1.25,
-      "index": "at",
+      "index": "b0Od",
       "autoResize": true
     },
     {
@@ -2082,14 +2082,14 @@
         "type": 3
       },
       "seed": 13938522,
-      "version": 2,
-      "versionNonce": 258953997,
+      "version": 3,
+      "versionNonce": 377244471,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "au"
+      "index": "b0OdV"
     },
     {
       "id": "datos_b_lbl",
@@ -2110,11 +2110,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 767303989,
-      "version": 53,
-      "versionNonce": 76393699,
+      "version": 54,
+      "versionNonce": 1454008249,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790224660073,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Subred PRIVADA database   10.0.31.0/24\nsubnet-database-casino-prod-01-cacentral1b",
@@ -2125,7 +2125,7 @@
       "containerId": null,
       "originalText": "Subred PRIVADA database   10.0.31.0/24\nsubnet-database-casino-prod-01-cacentral1b",
       "lineHeight": 1.25,
-      "index": "av",
+      "index": "b0Oe",
       "autoResize": true
     },
     {
@@ -2149,8 +2149,8 @@
         "type": 3
       },
       "seed": 1281810601,
-      "version": 2,
-      "versionNonce": 965437805,
+      "version": 3,
+      "versionNonce": 224119895,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2158,10 +2158,10 @@
           "id": "rds_b_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "aw"
+      "index": "b0Of"
     },
     {
       "id": "rds_b_txt",
@@ -2182,11 +2182,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 656439678,
-      "version": 4,
-      "versionNonce": 105639907,
+      "version": 5,
+      "versionNonce": 1616316569,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "RDS PostgreSQL transaccional · standby\n(mismo RDS, Multi-AZ)",
@@ -2197,7 +2197,7 @@
       "containerId": "rds_b",
       "originalText": "RDS PostgreSQL transaccional · standby\n(mismo RDS, Multi-AZ)",
       "lineHeight": 1.25,
-      "index": "ax",
+      "index": "b0OfV",
       "autoResize": true
     },
     {
@@ -2221,11 +2221,11 @@
         "type": 2
       },
       "seed": 693847830,
-      "version": 2,
-      "versionNonce": 1217770445,
+      "version": 3,
+      "versionNonce": 988686711,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "points": [
@@ -2243,7 +2243,7 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "lastCommittedPoint": null,
-      "index": "ay"
+      "index": "b0Og"
     },
     {
       "id": "f_redis_rep_lbl",
@@ -2264,11 +2264,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1392239676,
-      "version": 38,
-      "versionNonce": 1215653421,
+      "version": 39,
+      "versionNonce": 1367117177,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194501751,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "replica",
@@ -2279,7 +2279,7 @@
       "containerId": null,
       "originalText": "replica",
       "lineHeight": 1.25,
-      "index": "az",
+      "index": "b0Oh",
       "autoResize": true
     },
     {
@@ -2303,11 +2303,11 @@
         "type": 2
       },
       "seed": 83651971,
-      "version": 2,
-      "versionNonce": 1755820589,
+      "version": 3,
+      "versionNonce": 2088231575,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "points": [
@@ -2325,7 +2325,7 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "lastCommittedPoint": null,
-      "index": "b00"
+      "index": "b0OhV"
     },
     {
       "id": "f_rds_rep_lbl",
@@ -2346,11 +2346,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1558990518,
-      "version": 38,
-      "versionNonce": 1984153699,
+      "version": 39,
+      "versionNonce": 291403353,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790224587596,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Multi-AZ",
@@ -2361,7 +2361,7 @@
       "containerId": null,
       "originalText": "Multi-AZ",
       "lineHeight": 1.25,
-      "index": "b01",
+      "index": "b0Oi",
       "autoResize": true
     },
     {
@@ -2385,11 +2385,11 @@
         "type": 2
       },
       "seed": 1028439864,
-      "version": 2,
-      "versionNonce": 111862925,
+      "version": 3,
+      "versionNonce": 313358263,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "points": [
@@ -2407,7 +2407,7 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "lastCommittedPoint": null,
-      "index": "b02"
+      "index": "b0Oj"
     },
     {
       "id": "vpce",
@@ -2430,14 +2430,14 @@
         "type": 3
       },
       "seed": 1034535594,
-      "version": 2,
-      "versionNonce": 961361603,
+      "version": 3,
+      "versionNonce": 1389380409,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "b03"
+      "index": "b0Ok"
     },
     {
       "id": "vpce_lbl",
@@ -2458,11 +2458,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 367878762,
-      "version": 3,
-      "versionNonce": 911788781,
+      "version": 4,
+      "versionNonce": 867395799,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "VPC ENDPOINTS   ·   el trafico a estos servicios nunca sale a Internet",
@@ -2473,7 +2473,7 @@
       "containerId": null,
       "originalText": "VPC ENDPOINTS   ·   el trafico a estos servicios nunca sale a Internet",
       "lineHeight": 1.25,
-      "index": "b04",
+      "index": "b0Ol",
       "autoResize": true
     },
     {
@@ -2497,8 +2497,8 @@
         "type": 3
       },
       "seed": 297265481,
-      "version": 2,
-      "versionNonce": 278881891,
+      "version": 3,
+      "versionNonce": 573928473,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2506,10 +2506,10 @@
           "id": "vpce_s3_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "b05"
+      "index": "b0OlV"
     },
     {
       "id": "vpce_s3_txt",
@@ -2530,11 +2530,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 551437150,
-      "version": 4,
-      "versionNonce": 1480254797,
+      "version": 5,
+      "versionNonce": 1562260983,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Endpoint Gateway  →  S3\nendpoint-s3-casino-prod-01-cacentral1",
@@ -2545,7 +2545,7 @@
       "containerId": "vpce_s3",
       "originalText": "Endpoint Gateway  →  S3\nendpoint-s3-casino-prod-01-cacentral1",
       "lineHeight": 1.25,
-      "index": "b06",
+      "index": "b0Om",
       "autoResize": true
     },
     {
@@ -2569,8 +2569,8 @@
         "type": 3
       },
       "seed": 709214892,
-      "version": 2,
-      "versionNonce": 155886083,
+      "version": 3,
+      "versionNonce": 864127225,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2578,10 +2578,10 @@
           "id": "vpce_sm_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "b07"
+      "index": "b0On"
     },
     {
       "id": "vpce_sm_txt",
@@ -2602,11 +2602,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1817363616,
-      "version": 4,
-      "versionNonce": 2141893549,
+      "version": 5,
+      "versionNonce": 1710382871,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Endpoint Interface  →  Secrets Manager\nendpoint-secretsmanager-casino-prod-01-cacentral1",
@@ -2617,7 +2617,7 @@
       "containerId": "vpce_sm",
       "originalText": "Endpoint Interface  →  Secrets Manager\nendpoint-secretsmanager-casino-prod-01-cacentral1",
       "lineHeight": 1.25,
-      "index": "b08",
+      "index": "b0OnV",
       "autoResize": true
     },
     {
@@ -2641,11 +2641,11 @@
         "type": 2
       },
       "seed": 863937248,
-      "version": 2,
-      "versionNonce": 743270819,
+      "version": 3,
+      "versionNonce": 1882718681,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "points": [
@@ -2663,7 +2663,7 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "lastCommittedPoint": null,
-      "index": "b09"
+      "index": "b0Oo"
     },
     {
       "id": "peer_lbl",
@@ -2684,11 +2684,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1713658875,
-      "version": 4,
-      "versionNonce": 416396813,
+      "version": 5,
+      "versionNonce": 1352950839,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "VPC Peering  ·  pcx-casino-prod-01-cacentral1  ·  rutas en AMBOS sentidos",
@@ -2699,7 +2699,7 @@
       "containerId": null,
       "originalText": "VPC Peering  ·  pcx-casino-prod-01-cacentral1  ·  rutas en AMBOS sentidos",
       "lineHeight": 1.25,
-      "index": "b0A",
+      "index": "b0Op",
       "autoResize": true
     },
     {
@@ -2723,14 +2723,14 @@
         "type": 3
       },
       "seed": 1881625506,
-      "version": 2,
-      "versionNonce": 1591098691,
+      "version": 3,
+      "versionNonce": 1164730041,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "b0B"
+      "index": "b0OpV"
     },
     {
       "id": "vpc_bodega_lbl",
@@ -2751,11 +2751,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 519709080,
-      "version": 3,
-      "versionNonce": 1319726189,
+      "version": 4,
+      "versionNonce": 1561904471,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "VPC Bodega   ·   vpc-casino-bodega-01-cacentral1   ·   10.1.0.0/16   ·   sin IGW ni NAT",
@@ -2766,7 +2766,7 @@
       "containerId": null,
       "originalText": "VPC Bodega   ·   vpc-casino-bodega-01-cacentral1   ·   10.1.0.0/16   ·   sin IGW ni NAT",
       "lineHeight": 1.25,
-      "index": "b0C",
+      "index": "b0Oq",
       "autoResize": true
     },
     {
@@ -2790,14 +2790,14 @@
         "type": 3
       },
       "seed": 965067728,
-      "version": 2,
-      "versionNonce": 1547934947,
+      "version": 3,
+      "versionNonce": 834805657,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "b0D"
+      "index": "b0Or"
     },
     {
       "id": "bod_a_lbl",
@@ -2818,11 +2818,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1452066460,
-      "version": 4,
-      "versionNonce": 821778125,
+      "version": 5,
+      "versionNonce": 1520697975,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Subred PRIVADA   10.1.10.0/24   ·   ca-central-1a\nsubnet-database-casino-bodega-01-cacentral1a",
@@ -2833,7 +2833,7 @@
       "containerId": null,
       "originalText": "Subred PRIVADA   10.1.10.0/24   ·   ca-central-1a\nsubnet-database-casino-bodega-01-cacentral1a",
       "lineHeight": 1.25,
-      "index": "b0E",
+      "index": "b0Os",
       "autoResize": true
     },
     {
@@ -2857,14 +2857,14 @@
         "type": 3
       },
       "seed": 988335252,
-      "version": 2,
-      "versionNonce": 1881409667,
+      "version": 3,
+      "versionNonce": 325895289,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "b0F"
+      "index": "b0Ot"
     },
     {
       "id": "bod_b_lbl",
@@ -2885,11 +2885,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 30884439,
-      "version": 4,
-      "versionNonce": 442561837,
+      "version": 5,
+      "versionNonce": 973773719,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Subred PRIVADA   10.1.11.0/24   ·   ca-central-1b\nsubnet-database-casino-bodega-01-cacentral1b",
@@ -2900,7 +2900,7 @@
       "containerId": null,
       "originalText": "Subred PRIVADA   10.1.11.0/24   ·   ca-central-1b\nsubnet-database-casino-bodega-01-cacentral1b",
       "lineHeight": 1.25,
-      "index": "b0G",
+      "index": "b0OtV",
       "autoResize": true
     },
     {
@@ -2924,8 +2924,8 @@
         "type": 3
       },
       "seed": 252860897,
-      "version": 2,
-      "versionNonce": 1882587171,
+      "version": 3,
+      "versionNonce": 909102425,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2933,10 +2933,10 @@
           "id": "rds_hist_a_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "b0H"
+      "index": "b0Ou"
     },
     {
       "id": "rds_hist_a_txt",
@@ -2957,11 +2957,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 289482183,
-      "version": 4,
-      "versionNonce": 1447282573,
+      "version": 5,
+      "versionNonce": 1602293943,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "RDS PostgreSQL historica · instancia unica\nrds-casino-bodega-01-cacentral1a",
@@ -2972,7 +2972,7 @@
       "containerId": "rds_hist_a",
       "originalText": "RDS PostgreSQL historica · instancia unica\nrds-casino-bodega-01-cacentral1a",
       "lineHeight": 1.25,
-      "index": "b0I",
+      "index": "b0Ov",
       "autoResize": true
     },
     {
@@ -2994,11 +2994,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1419179581,
-      "version": 3,
-      "versionNonce": 1986528195,
+      "version": 4,
+      "versionNonce": 559856185,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "Subred vacia, pero obligatoria:\naws_db_subnet_group exige subredes\nen 2 AZs aunque la instancia\ncorra en una sola.",
@@ -3009,14 +3009,14 @@
       "containerId": null,
       "originalText": "Subred vacia, pero obligatoria:\naws_db_subnet_group exige subredes\nen 2 AZs aunque la instancia\ncorra en una sola.",
       "lineHeight": 1.25,
-      "index": "b0J",
+      "index": "b0Ow",
       "autoResize": true
     },
     {
       "id": "nomencla",
       "type": "rectangle",
-      "x": 1110,
-      "y": 105,
+      "x": 1191.08447265625,
+      "y": 5.649200439453125,
       "width": 250,
       "height": 175,
       "angle": 0,
@@ -3033,20 +3033,20 @@
         "type": 3
       },
       "seed": 1022222126,
-      "version": 2,
-      "versionNonce": 115166701,
+      "version": 338,
+      "versionNonce": 863626327,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281230303,
       "link": null,
       "locked": false,
-      "index": "b0K"
+      "index": "b0Ox"
     },
     {
       "id": "nomencla_t",
       "type": "text",
-      "x": 1124,
-      "y": 116,
+      "x": 1242.74072265625,
+      "y": 40.80859375,
       "width": 92.4,
       "height": 17.5,
       "angle": 0,
@@ -3061,11 +3061,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 2084839400,
-      "version": 3,
-      "versionNonce": 1524142947,
+      "version": 268,
+      "versionNonce": 629752183,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281230303,
       "link": null,
       "locked": false,
       "text": "Nomenclatura",
@@ -3076,14 +3076,14 @@
       "containerId": null,
       "originalText": "Nomenclatura",
       "lineHeight": 1.25,
-      "index": "b0L",
+      "index": "b0OxV",
       "autoResize": true
     },
     {
       "id": "nomencla_c",
       "type": "text",
-      "x": 1124,
-      "y": 142,
+      "x": 1242.74072265625,
+      "y": 66.80859375,
       "width": 198,
       "height": 82,
       "angle": 0,
@@ -3098,11 +3098,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 568275056,
-      "version": 3,
-      "versionNonce": 1261897805,
+      "version": 268,
+      "versionNonce": 334494359,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281230303,
       "link": null,
       "locked": false,
       "text": "recurso-casino-OP-num-region\n\nOP = prod  (VPC principal)\nOP = bodega  (VPC bodega)\n01 fijo; la AZ va como sufijo:\ncacentral1a / cacentral1b",
@@ -3113,7 +3113,7 @@
       "containerId": null,
       "originalText": "recurso-casino-OP-num-region\n\nOP = prod  (VPC principal)\nOP = bodega  (VPC bodega)\n01 fijo; la AZ va como sufijo:\ncacentral1a / cacentral1b",
       "lineHeight": 1.25,
-      "index": "b0M",
+      "index": "b0Oy",
       "autoResize": true
     },
     {
@@ -3137,8 +3137,8 @@
         "type": 3
       },
       "seed": 1043665193,
-      "version": 2,
-      "versionNonce": 1842753283,
+      "version": 3,
+      "versionNonce": 740179961,
       "isDeleted": false,
       "boundElements": [
         {
@@ -3146,10 +3146,10 @@
           "id": "cloudfront_txt"
         }
       ],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
-      "index": "b0N"
+      "index": "b0Oz"
     },
     {
       "id": "cloudfront_txt",
@@ -3170,11 +3170,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1748309235,
-      "version": 5,
-      "versionNonce": 623539885,
+      "version": 6,
+      "versionNonce": 1541445655,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281017195,
       "link": null,
       "locked": false,
       "text": "CloudFront (CDN)\ncdn-casino-prod-01-cacentral1\ncertificado por defecto *.cloudfront.net",
@@ -3185,7 +3185,7 @@
       "containerId": "cloudfront",
       "originalText": "CloudFront (CDN)\ncdn-casino-prod-01-cacentral1\ncertificado por defecto *.cloudfront.net",
       "lineHeight": 1.25,
-      "index": "b0O",
+      "index": "b0OzV",
       "autoResize": true
     },
     {
@@ -3919,8 +3919,8 @@
     {
       "id": "nota_ssm",
       "type": "text",
-      "x": 1110,
-      "y": 1330,
+      "x": 1115.3531494140625,
+      "y": 1275.3882446289062,
       "width": 204,
       "height": 60,
       "angle": 0,
@@ -3935,11 +3935,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1676848688,
-      "version": 11,
-      "versionNonce": 742603053,
+      "version": 51,
+      "versionNonce": 797623385,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790224769874,
+      "updated": 1790281212315,
       "link": null,
       "locked": false,
       "text": "Las EC2 no tienen IP publica\nni puerto 22 abierto: el acceso\nadministrativo es por SSM\nSession Manager.",
@@ -3956,8 +3956,8 @@
     {
       "id": "nota_nat",
       "type": "text",
-      "x": 1110,
-      "y": 1420,
+      "x": 1112.0360107421875,
+      "y": 1357.7671508789062,
       "width": 173.88124084472656,
       "height": 30,
       "angle": 0,
@@ -3972,11 +3972,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1676848677,
-      "version": 11,
-      "versionNonce": 742603053,
+      "version": 43,
+      "versionNonce": 871243865,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790224769874,
+      "updated": 1790281213555,
       "link": null,
       "locked": false,
       "text": "Un solo NAT Gateway:\npara Costos sobre Fiabilidad.",
@@ -3987,14 +3987,14 @@
       "containerId": null,
       "originalText": "Un solo NAT Gateway:\npara Costos sobre Fiabilidad.",
       "lineHeight": 1.25,
-      "index": "b0j",
+      "index": "b0jV",
       "autoResize": true
     },
     {
       "id": "nota_bodega",
       "type": "text",
-      "x": 1110.007080078125,
-      "y": 1510,
+      "x": 1121.5416259765625,
+      "y": 1419.1609497070312,
       "width": 123.37287902832031,
       "height": 15,
       "angle": 0,
@@ -4009,11 +4009,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1954246075,
-      "version": 8,
-      "versionNonce": 1491636611,
+      "version": 52,
+      "versionNonce": 778876601,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790224784027,
+      "updated": 1790281214591,
       "link": null,
       "locked": false,
       "text": "Bodega sin Multi-AZ:",
@@ -4345,8 +4345,8 @@
     {
       "id": "f_nat_igw_lbl",
       "type": "text",
-      "x": 490.5,
-      "y": 314.5,
+      "x": 514.1390380859375,
+      "y": 314.3046875,
       "width": 42.900000000000006,
       "height": 16.25,
       "angle": 0,
@@ -4361,11 +4361,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 344076116,
-      "version": 3,
-      "versionNonce": 443960909,
+      "version": 15,
+      "versionNonce": 1444305593,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790194081589,
+      "updated": 1790281255678,
       "link": null,
       "locked": false,
       "text": "salida",
@@ -4382,10 +4382,10 @@
     {
       "id": "alb_nombre_lbl",
       "type": "text",
-      "x": 330,
-      "y": 424,
-      "width": 367,
-      "height": 15,
+      "x": 269.17584228515625,
+      "y": 422.33038330078125,
+      "width": 326.5379150390638,
+      "height": 13.346236309498513,
       "angle": 0,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
@@ -4398,15 +4398,15 @@
       "frameId": null,
       "roundness": null,
       "seed": 1392239683,
-      "version": 40,
-      "versionNonce": 21671149,
+      "version": 687,
+      "versionNonce": 248758489,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790224512245,
+      "updated": 1790281179081,
       "link": null,
       "locked": false,
       "text": "alb-casino-prod-01-cacentral1   (un solo ALB, 2 AZ)",
-      "fontSize": 12,
+      "fontSize": 10.676989047598816,
       "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
