@@ -9,14 +9,14 @@ module "vpc_prod" {
   version = "~> 6.0"
 
   name = "vpc-${var.proyecto}-prod-01-cacentral1"
-  cidr = var.vpc_prod_cidr //10.0.0.0/16
+  cidr = "10.0.0.0/16"
   azs  = local.azs
 
 
-  public_subnets      = var.subredes_prod["pub"]
-  private_subnets     = var.subredes_prod["app"]
-  elasticache_subnets = var.subredes_prod["redis"]
-  database_subnets    = var.subredes_prod["database"]
+  public_subnets      = ["10.0.0.0/24", "10.0.1.0/24"]
+  private_subnets     = ["10.0.10.0/24", "10.0.11.0/24"]
+  elasticache_subnets = ["10.0.20.0/24", "10.0.21.0/24"]
+  database_subnets    = ["10.0.30.0/24", "10.0.31.0/24"]
 
   public_subnet_names      = [for i in [1, 2] : "subnet-pub-${var.proyecto}-prod-0${i}-cacentral1"]
   private_subnet_names     = [for i in [1, 2] : "subnet-app-${var.proyecto}-prod-0${i}-cacentral1"]
@@ -52,10 +52,10 @@ module "vpc_bodega" {
   version = "~> 6.0"
 
   name = "vpc-${var.proyecto}-bodega-01-cacentral1"
-  cidr = var.vpc_bodega_cidr
+  cidr = "10.1.0.0/16"
   azs  = local.azs
 
-  database_subnets      = var.subredes_bodega
+  database_subnets      = ["10.1.10.0/24", "10.1.11.0/24"]
   database_subnet_names = [for i in [1, 2] : "subnet-database-${var.proyecto}-bodega-0${i}-cacentral1"]
 
   enable_dns_hostnames = true
@@ -90,7 +90,7 @@ resource "aws_route" "prod_hacia_bodega" {
   count = length(module.vpc_prod.private_route_table_ids)
 
   route_table_id            = module.vpc_prod.private_route_table_ids[count.index]
-  destination_cidr_block    = var.vpc_bodega_cidr
+  destination_cidr_block    = "10.1.0.0/16"
   vpc_peering_connection_id = aws_vpc_peering_connection.prod_bodega.id
 }
 
@@ -98,6 +98,6 @@ resource "aws_route" "bodega_hacia_prod" {
   count = length(module.vpc_bodega.database_route_table_ids)
 
   route_table_id            = module.vpc_bodega.database_route_table_ids[count.index]
-  destination_cidr_block    = var.vpc_prod_cidr
+  destination_cidr_block    = "10.0.0.0/16"
   vpc_peering_connection_id = aws_vpc_peering_connection.prod_bodega.id
 }
