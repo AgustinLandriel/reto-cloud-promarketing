@@ -22,7 +22,7 @@ locals {
 
 # --- ALB -------------------------------------------------------------------
 resource "aws_security_group" "alb" {
-  name        = "sg-alb-${var.proyecto}-prod-01-cacentral1"
+  name        = "secgroup-alb-${var.proyecto}-prod-01-cacentral1"
   description = "Balanceador: recibe 80/443 desde Internet"
   vpc_id      = module.vpc_prod.vpc_id
 
@@ -62,7 +62,7 @@ resource "aws_vpc_security_group_egress_rule" "alb_hacia_app" {
 resource "aws_security_group" "app" {
   for_each = var.aplicaciones
 
-  name        = "sg-${each.key}-${var.proyecto}-prod-01-cacentral1"
+  name        = "secgroup-${each.key}-${var.proyecto}-prod-01-cacentral1"
   description = "${each.key}: solo acepta trafico del ALB"
   vpc_id      = module.vpc_prod.vpc_id
 
@@ -127,7 +127,7 @@ resource "aws_vpc_security_group_egress_rule" "app_hacia_bodega" {
 
 # --- Redis -----------------------------------------------------------------
 resource "aws_security_group" "redis" {
-  name        = "sg-redis-${var.proyecto}-prod-01-cacentral1"
+  name        = "secgroup-redis-${var.proyecto}-prod-01-cacentral1"
   description = "Redis: solo acepta a las apps autorizadas, actualmente webapi y gameapi"
   vpc_id      = module.vpc_prod.vpc_id
 
@@ -147,7 +147,7 @@ resource "aws_vpc_security_group_ingress_rule" "redis_desde_app" {
 
 # --- RDS transaccional -----------------------------------------------------
 resource "aws_security_group" "rds" {
-  name        = "sg-rds-${var.proyecto}-prod-01-cacentral1"
+  name        = "secgroup-rds-${var.proyecto}-prod-01-cacentral1"
   description = "RDS transaccional: solo acepta a las apps autorizadas, backoffice, webapi y gameapi"
   vpc_id      = module.vpc_prod.vpc_id
 
@@ -167,7 +167,7 @@ resource "aws_vpc_security_group_ingress_rule" "rds_desde_app" {
 
 # --- RDS historica  ------------------------------------------------------------
 resource "aws_security_group" "rds_bodega" {
-  name        = "sg-rds-${var.proyecto}-bodega-01-cacentral1"
+  name        = "secgroup-rds-${var.proyecto}-bodega-01-cacentral1"
   description = "RDS bodega: solo acepta a las apps autorizadas de la VPC principal, actualmente solo backoffice"
   vpc_id      = module.vpc_bodega.vpc_id
 

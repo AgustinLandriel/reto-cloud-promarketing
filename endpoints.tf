@@ -30,7 +30,7 @@ resource "aws_vpc_endpoint" "secretsmanager" {
 # SG del endpoint: solo acepta HTTPS de las apps que leen credenciales
 # (las que usan RDS).
 resource "aws_security_group" "secretsmanager" {
-  name        = "sg-secretsmanager-${var.proyecto}-prod-01-cacentral1"
+  name        = "secgroup-secretsmanager-${var.proyecto}-prod-01-cacentral1"
   description = "Endpoint de Secrets Manager"
   vpc_id      = module.vpc_prod.vpc_id
 
