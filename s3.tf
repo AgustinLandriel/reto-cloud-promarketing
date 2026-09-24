@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------------------
-# s3.tf  ·  Bucket privado para el contenido estatico (imagenes, assets).
-# Nadie entra directo: solo CloudFront puede leerlo (ver cloudfront.tf).
+# s3 bucket para assets
+#
 # ---------------------------------------------------------------------------
 
 resource "aws_s3_bucket" "bucket" {
@@ -19,7 +19,7 @@ resource "aws_s3_bucket_public_access_block" "bucket" {
   restrict_public_buckets = true
 }
 
-# Desactiva las ACL por completo: el acceso se define solo con la policy.
+# Desactiva las ACL por completo
 resource "aws_s3_bucket_ownership_controls" "bucket" {
   bucket = aws_s3_bucket.bucket.id
 
@@ -28,7 +28,6 @@ resource "aws_s3_bucket_ownership_controls" "bucket" {
   }
 }
 
-# Cifrado en reposo con SSE-S3 (AES256, las claves las maneja AWS).
 resource "aws_s3_bucket_server_side_encryption_configuration" "bucket" {
   bucket = aws_s3_bucket.bucket.id
 
@@ -39,7 +38,7 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "bucket" {
   }
 }
 
-# Unica puerta de entrada: CloudFront, y solo la distribucion de este proyecto.
+# Permite que solo Cloudfront lea el bucket
 resource "aws_s3_bucket_policy" "bucket" {
   bucket = aws_s3_bucket.bucket.id
 

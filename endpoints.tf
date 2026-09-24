@@ -1,10 +1,10 @@
 # ---------------------------------------------------------------------------
-# endpoints.tf  ·  VPC Endpoints: las EC2 llegan a S3 y a Secrets Manager
-# por la red interna de AWS, sin pasar por el NAT ni por Internet.
+# las EC2 llegan a S3 y a Secrets Manager
+# 
 # ---------------------------------------------------------------------------
 
 # --- S3 (tipo Gateway) -----------------------------------------------------
-# Un Gateway agrega una ruta a las tablas de rutas de las subredes app, y el trafico hacia S3 toma ese camino.
+# se agrega una ruta a la tabla de rutas de las subredes, y el trafico hacia S3 toma ese camino.
 resource "aws_vpc_endpoint" "s3" {
   vpc_id            = module.vpc_prod.vpc_id
   service_name      = "com.amazonaws.ca-central-1.s3"
@@ -15,8 +15,7 @@ resource "aws_vpc_endpoint" "s3" {
 }
 
 # --- Secrets Manager (tipo Interface) --------------------------------------
-# Con private_dns_enabled, el nombre normal del servicio resuelve a esas
-# IPs, y las aplicaciones no cambian nada.
+
 resource "aws_vpc_endpoint" "secretsmanager" {
   vpc_id              = module.vpc_prod.vpc_id
   service_name        = "com.amazonaws.ca-central-1.secretsmanager"

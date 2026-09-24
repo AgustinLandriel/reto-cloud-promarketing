@@ -1,5 +1,5 @@
 # ---------------------------------------------------------------------------
-# cloudfront.tf  ·  CDN que sirve el bucket S3 privado.
+# CDN que sirve el bucket S3 privado.
 # ---------------------------------------------------------------------------
 
 # OAC (Origin Access Control)

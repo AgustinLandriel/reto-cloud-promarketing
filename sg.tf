@@ -1,5 +1,5 @@
 # ---------------------------------------------------------------------------
-# security.tf  ·  Security Groups:
+# Security Groups y NACL
 #
 # Hay un SG por aplicacion, para dar a cada una solo el acceso que usa
 #
@@ -69,8 +69,7 @@ resource "aws_security_group" "app" {
   tags = { Name = "sg-${each.key}-${var.proyecto}-prod-01-cacentral1" }
 }
 
-# Se referencia el SG del ALB y no un CIDR: sigue valiendo aunque cambien
-# las IPs del balanceador.
+# Se referencia el SG del ALB 
 resource "aws_vpc_security_group_ingress_rule" "app_desde_alb" {
   for_each = var.aplicaciones
 
@@ -166,7 +165,7 @@ resource "aws_vpc_security_group_ingress_rule" "rds_desde_app" {
   to_port                      = 5432
 }
 
-# --- RDS historica de bodega ------------------------------------------------------------
+# --- RDS historica  ------------------------------------------------------------
 resource "aws_security_group" "rds_bodega" {
   name        = "sg-rds-${var.proyecto}-bodega-01-cacentral1"
   description = "RDS bodega: solo acepta a las apps autorizadas de la VPC principal, actualmente solo backoffice"
@@ -175,8 +174,7 @@ resource "aws_security_group" "rds_bodega" {
   tags = { Name = "sg-rds-${var.proyecto}-bodega-01-cacentral1" }
 }
 
-# El origen es el SG de otra VPC, conectada por el peering. AWS lo permite
-# porque las dos VPC estan en la misma cuenta y region.
+# El origen es el SG de otra VPC
 resource "aws_vpc_security_group_ingress_rule" "rds_bodega_desde_app" {
   for_each = toset(local.acceso.bodega)
 
@@ -189,15 +187,8 @@ resource "aws_vpc_security_group_ingress_rule" "rds_bodega_desde_app" {
 }
 
 # ---------------------------------------------------------------------------
-# NACLs  ·  Segunda capa de defensa, una por nivel (cada nivel tiene sus
-# propias subredes, de ahi las 4 capas de la VPC principal).
+# NACLs  
 #
-# A diferencia de los SG, las NACL NO recuerdan las conexiones (stateless):
-# hay que autorizar tambien la vuelta, por los puertos efimeros 1024-65535.
-# Lo que no coincide con ninguna regla se rechaza.
-#
-# Cada capa tiene dos subredes (una por AZ), asi que cada permiso lleva dos
-# reglas: una por subred, con numeros consecutivos (100 y 101, etc.).
 # ---------------------------------------------------------------------------
 
 # --- Subredes publicas: ALB y NAT ---
@@ -542,7 +533,7 @@ resource "aws_network_acl" "database" {
   tags = { Name = "nacl-database-${var.proyecto}-prod-01-cacentral1" }
 }
 
-# --- Subredes de la bodega (otra VPC) ---
+# --- Subredes de la bodega ( VPC 2 ) ---
 resource "aws_network_acl" "bodega" {
   vpc_id     = module.vpc_bodega.vpc_id
   subnet_ids = module.vpc_bodega.database_subnets
