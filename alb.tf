@@ -8,12 +8,11 @@ resource "aws_lb" "alb_casino" {
   internal           = false # Se expone hacia internet
   load_balancer_type = "application"
 
-  # Usamos el Security Group creado en  sg.tf
   security_groups = [aws_security_group.alb.id]
 
   subnets = module.vpc_prod.public_subnets
 
-  # Access logs hacia el bucket de monitoring.tf
+  # Access logs hacia el bucket 
   access_logs {
     bucket  = aws_s3_bucket.logs.id
     prefix  = "alb"
@@ -44,7 +43,7 @@ resource "aws_lb_target_group" "app_tg" {
   }
 }
 
-#Listener HTTP: Redirección obligatoria a HTTPS
+#Redirección obligatoria a HTTPS
 resource "aws_lb_listener" "http_redirect" {
   load_balancer_arn = aws_lb.alb_casino.arn
   port              = "80"
